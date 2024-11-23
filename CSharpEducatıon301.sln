@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEducation.BusinessLay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEducation301.PrensentationLayer", "CSharpEducation301.PrensentationLayer\CSharpEducation301.PrensentationLayer.csproj", "{58C8992D-BD03-4CD3-AAB5-F6925C622BDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEducatıon301.EFProject", "CSharpEducatıon301.EFProject\CSharpEducatıon301.EFProject.csproj", "{8730E735-83F8-4D75-B4A2-A89BE83F200B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{58C8992D-BD03-4CD3-AAB5-F6925C622BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58C8992D-BD03-4CD3-AAB5-F6925C622BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58C8992D-BD03-4CD3-AAB5-F6925C622BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8730E735-83F8-4D75-B4A2-A89BE83F200B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8730E735-83F8-4D75-B4A2-A89BE83F200B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8730E735-83F8-4D75-B4A2-A89BE83F200B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8730E735-83F8-4D75-B4A2-A89BE83F200B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
