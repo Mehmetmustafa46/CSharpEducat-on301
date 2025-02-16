@@ -56,14 +56,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="CSharpEducation301\DataAccessLayer\Concrete.cs" />
+    <Compile Include="CSharpEducation301\DataAccessLayer\ICategoryDal.cs" />
+    <Compile Include="EfCategoryDal.cs" />
+    <Compile Include="FrmCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="InitializeComponent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -91,6 +98,14 @@
     <ProjectReference Include="..\CSharpEducation.BusinessLayer\CSharpEducation.BusinessLayer.csproj">
       <Project>{ccc8598c-568d-47c0-9775-d92b181b064d}</Project>
       <Name>CSharpEducation.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEducation301.DataAccessLayer\CSharpEducation301.DataAccessLayer.csproj">
+      <Project>{ADC5F901-67E5-412F-BB9C-7FF3B499218E}</Project>
+      <Name>CSharpEducation301.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEducatıon301.EntityLayer\CSharpEducatıon301.EntityLayer.csproj">
+      <Project>{3A0C9044-BB84-46B2-8826-D387625D05B6}</Project>
+      <Name>CSharpEducatıon301.EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
